@@ -25,4 +25,3 @@ for submission in subreddit.rising(limit=10):
         if censored_text!=comment.body:
             comment.reply(reply)    
             time.sleep(30)
-#test
